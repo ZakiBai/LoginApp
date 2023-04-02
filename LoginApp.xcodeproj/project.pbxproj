@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3595304329D995D100CF800E /* LoggedAccountMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595304229D995D100CF800E /* LoggedAccountMainPageViewController.swift */; };
 		35FE4A9429D97B9C009A4100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE4A9329D97B9C009A4100 /* AppDelegate.swift */; };
 		35FE4A9629D97B9C009A4100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE4A9529D97B9C009A4100 /* SceneDelegate.swift */; };
 		35FE4A9829D97B9C009A4100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE4A9729D97B9C009A4100 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3595304229D995D100CF800E /* LoggedAccountMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedAccountMainPageViewController.swift; sourceTree = "<group>"; };
 		35FE4A9029D97B9C009A4100 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FE4A9329D97B9C009A4100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35FE4A9529D97B9C009A4100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				35FE4A9329D97B9C009A4100 /* AppDelegate.swift */,
 				35FE4A9529D97B9C009A4100 /* SceneDelegate.swift */,
 				35FE4A9729D97B9C009A4100 /* ViewController.swift */,
+				3595304229D995D100CF800E /* LoggedAccountMainPageViewController.swift */,
 				35FE4A9929D97B9C009A4100 /* Main.storyboard */,
 				35FE4A9C29D97B9E009A4100 /* Assets.xcassets */,
 				35FE4A9E29D97B9E009A4100 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3595304329D995D100CF800E /* LoggedAccountMainPageViewController.swift in Sources */,
 				35FE4A9829D97B9C009A4100 /* ViewController.swift in Sources */,
 				35FE4A9429D97B9C009A4100 /* AppDelegate.swift in Sources */,
 				35FE4A9629D97B9C009A4100 /* SceneDelegate.swift in Sources */,
