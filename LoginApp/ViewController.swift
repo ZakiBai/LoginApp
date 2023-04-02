@@ -36,7 +36,7 @@ final class ViewController: UIViewController {
     @IBAction func logInButtonTapped(_ sender: UIButton) {
         if userNameField.text == "Zaki" && passwordField.text == "iphone" {
         } else {
-            showAlertWrongDataAccount(withTitle: "Oops!", andMessage: "Your username or password is wrong. Please check your fields and try again.")
+            showAlertWrongDataAccount(withTitle: "WRONG PASSWORD OR USERNAME", andMessage: "Your username or password is wrong. Please check your fields and try again.")
         }
         
     }

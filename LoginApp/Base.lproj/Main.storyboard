@@ -25,6 +25,9 @@
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D2f-7l-kmu">
                                                 <rect key="frame" x="0.0" y="0.0" width="336" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="D2f-7l-kmu" secondAttribute="height" multiplier="168:17" id="g4O-eT-JaJ"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                             </textField>
@@ -76,7 +79,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
+                            <constraint firstItem="TME-4z-KIu" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.224178" id="0bO-eM-TUH"/>
                             <constraint firstItem="TME-4z-KIu" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="264" id="3bb-zD-3ru"/>
+                            <constraint firstItem="GbC-j4-5B2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.166667" id="NpU-9r-Gjg"/>
                             <constraint firstItem="TME-4z-KIu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bXs-Dy-CRl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TME-4z-KIu" secondAttribute="bottom" constant="304" id="knh-Ag-Lv7"/>
                         </constraints>
