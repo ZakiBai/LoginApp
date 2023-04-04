@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class LoggedAccountMainPageViewController: UIViewController {
+final class WelcomeViewController: UIViewController {
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var emojiLabel: UILabel!
     

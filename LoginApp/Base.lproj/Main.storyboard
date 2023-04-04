@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="mainViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="logInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GLv-ky-aqd"/>
-                                                    <segue destination="rGT-gX-P2s" kind="presentation" modalPresentationStyle="fullScreen" id="Z1j-oQ-jde"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -59,16 +58,16 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Forgot User Name?"/>
                                                 <connections>
-                                                    <action selector="userNameHintButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qc5-lz-aUJ"/>
+                                                    <action selector="hintButtonsTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qMX-zM-qZ5"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6L9-Qj-vuv">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6L9-Qj-vuv">
                                                 <rect key="frame" x="210" y="0.0" width="126" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Forgot Password?"/>
                                                 <connections>
-                                                    <action selector="passwordHintButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wrg-1X-qxR"/>
+                                                    <action selector="hintButtonsTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fN5-dR-gM1"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -89,19 +88,18 @@
                     <connections>
                         <outlet property="logInButton" destination="e7h-Zf-e0U" id="eV4-Cp-1om"/>
                         <outlet property="passwordField" destination="1fs-7V-qGG" id="DPa-EY-Ccu"/>
-                        <outlet property="passwordHintButton" destination="6L9-Qj-vuv" id="GmT-Cd-v53"/>
                         <outlet property="userNameField" destination="D2f-7l-kmu" id="Xhy-Bm-ipi"/>
-                        <outlet property="userNameHintButton" destination="dc4-gW-JBs" id="UYk-5N-uRJ"/>
+                        <segue destination="rGT-gX-P2s" kind="presentation" identifier="showWelcomeVC" modalPresentationStyle="fullScreen" id="EYz-Do-W4y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
         </scene>
-        <!--Logged Account Main Page View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="1T9-aC-UDS">
             <objects>
-                <viewController id="rGT-gX-P2s" customClass="LoggedAccountMainPageViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rGT-gX-P2s" customClass="WelcomeViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d54-ZC-071">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
